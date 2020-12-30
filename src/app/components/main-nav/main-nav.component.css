@@ -4,14 +4,43 @@
 
 .sidenav {
   width: 200px;
+  box-shadow: 3px 0 6px rgba(0, 0, 0, .05);
 }
 
-.sidenav .mat-toolbar {
-  background: inherit;
+.title{
+  margin: 0px 0px 0px 8px;
+}
+
+.link-text{
+  margin-left: 7%;
+  font-size: 0.9rem;
 }
 
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.spacer {
+  flex: 1;
+}
+
+#twitter-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+}
+
+#twitter-logo:hover {
+  opacity: 0.7;
+}
+
+.white-icon {
+  color: white;
+}
+/* Note: If you're using an SVG icon, you should make the class target the `<svg>` element */
+.white-icon svg {
+  fill: white;
 }
